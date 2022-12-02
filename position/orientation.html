@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Media Queries: orientation</title>
+    <style>
+      html {
+        font-size: 1em;
+      }
+
+      @media (orientation: landscape) {
+        body {
+          color: rebeccapurple;
+        }
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        width: 90%;
+        margin: 2em auto;
+        font: 1em/1.3 Arial, Helvetica, sans-serif;
+      }
+
+      a:link,
+      a:visited {
+        color: #333;
+      }
+
+      nav ul,
+      aside ul {
+        list-style: none;
+        padding: 0;
+      }
+
+      nav a:link,
+      nav a:visited {
+        background-color: rgba(207, 232, 220, 0.2);
+        border: 2px solid rgb(79, 185, 227);
+        text-decoration: none;
+        display: block;
+        padding: 10px;
+        color: #333;
+        font-weight: bold;
+      }
+
+      nav a:hover {
+        background-color: rgba(207, 232, 220, 0.7);
+      }
+
+      .related {
+        background-color: rgba(79, 185, 227, 0.3);
+        border: 1px solid rgb(79, 185, 227);
+        padding: 10px;
+      }
+
+      .sidebar {
+        background-color: rgba(207, 232, 220, 0.5);
+        padding: 10px;
+      }
+
+      article {
+        margin-bottom: 1em;
+      }
+    </style>
+  </head>
+
+  <body>
+    <p>
+      One November night in the year 1782, so the story runs, two brothers sat
+      over their winter fire in the little French town of Annonay, watching the
+      grey smoke-wreaths from the hearth curl up the wide chimney. Their names
+      were Stephen and Joseph Montgolfier, they were papermakers by trade, and
+      were noted as possessing thoughtful minds and a deep interest in all
+      scientific knowledge and new discovery.
+    </p>
+    <p>
+      Before that night—a memorable night, as it was to prove—hundreds of
+      millions of people had watched the rising smoke-wreaths of their fires
+      without drawing any special inspiration from the fact.”
+    </p>
+  </body>
+</html>
